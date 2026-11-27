@@ -1,16 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Camille Tom</title>
-<link rel="stylesheet " href ="css.style.css" />
-</head?
+<title>Camille Tom's Web Portfolio</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
 <body>
+<header>
 <h1>Camille Tom's Web Portfolio</h1>
 <nav>
 <a href="index.html">Home</a>
 <a href="#projects">Projects</a>
 <a href="#contact">Contact</a>
-<section id="projects">
-<h2?Projects</h2>
+</nav>
+</header>
+<main>
+   <section id="home">
+     <h2>Welcome</h2>
+      <p>Welcome to my Portfolio Page. I am Camille Tom, amd I design websites.</p>
+   </section>
+   <section id="projects">
+     <h2>projects</h2>
+     <figure>
+        <a href="#">
+         <img src="#">
+        </a>
+        <figcaption>Project 1: Tribute Page</figcaption>
+     </figure>
+     <figure>
+        <a href="#">
+         <img src="#">
+         </a>
+         <figcaption>Project 2: Product Page</figcaption>
+     </figure>
+   </section>
+</main>
+  <footer id="contact">
+     <p>Need to reach me? Please <ahref="mailto:camilleT@space.com">email me</a>!</p>
+</footer>
 </body>
-<html>
+</html>
